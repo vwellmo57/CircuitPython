@@ -10,4 +10,3 @@ while True: #essesialy a void loop
         analog_out.value = i
     for j in range(65535, 0, -1): #counts from 65535 down to 0 and then writes it to the LED
         analog_out.value = j
-   
