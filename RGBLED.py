@@ -34,16 +34,16 @@ time.sleep(1)
 
 ____________________________________________________________
 
-
 # rgb.py
+
 
 import pulseio
 
 class RGB():
     print("Colors")
-    
+
     full = 65535
-    
+
     def __init__(self, r, g, b):
         print(str(r))
         self.r = pulseio.PWMOut(r, frequency=5000, duty_cycle=0)
@@ -53,46 +53,35 @@ class RGB():
     def red(self):
         print("Red")
         self.r.duty_cycle = self.full
-        self.g.duty_cycle = 0
-        self.b.duty_cycle = 0
+        self.g.duty_cycle = self.full
+        self.b.duty_cycle = self.full
 
     def green(self):
         print("Green")
-        self.r.duty_cycle = 0
-        self.g.duty_cycle = self.full
-        self.b.duty_cycle = 0
-
-    def blue(self):
-        print("Blue")
-        self.r.duty_cycle = 0
+        self.r.duty_cycle = self.full
         self.g.duty_cycle = 0
         self.b.duty_cycle = self.full
 
     def cyan(self):
         print("Cyan")
         self.r.duty_cycle = 0
-        self.g.duty_cycle = self.full
+        self.g.duty_cycle = 0
         self.b.duty_cycle = self.full
+
+    def blue(self):
+        print("Blue")
+        self.r.duty_cycle = self.full
+        self.g.duty_cycle = 55535
+        self.b.duty_cycle = 35535
 
     def magenta(self):
         print("Magenta")
         self.r.duty_cycle = self.full
         self.g.duty_cycle = 0
         self.b.duty_cycle = self.full
-        
+
     def yellow(self):
         print("Yellow")
         self.r.duty_cycle = self.full
         self.g.duty_cycle = self.full
         self.b.duty_cycle = 26214
-        
-
-# add a parameter to your class, to set common annode or cathode
-# if the object is CCath, then you need to invert all values
-# EZPZ:  just use an if to check the parameter, then map the values backwards
-# map_range(val, 0, 65535, 65535, 0)
-
-
-
-
-
