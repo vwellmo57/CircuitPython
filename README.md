@@ -3,6 +3,8 @@ This is the repo for all my circuit Python assignments!
 
 # Hello Circuit Python
 
+## Goal
+
 
 # Circuit Python Servo
 
