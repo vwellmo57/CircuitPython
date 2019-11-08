@@ -16,4 +16,4 @@ This is the repo for all my circuit Python assignments.
 
 # Hello VS Code
 
-# Fany LED
+# Fancy LED
