@@ -1,5 +1,5 @@
 # Circuit Python
-This is the repo for all my circuit Python assignments.
+This is the repo for all my circuit Python assignments!
 
 # Hello Circuit Python
 
