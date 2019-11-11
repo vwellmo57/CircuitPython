@@ -20,13 +20,12 @@ while True: #essesialy a void loop
 ```
 Our variable counts up, but once it reaches 6000, it multiplies it by a negative and it counts down until it reaches 2000, where it begins to count up. 
 
-### LEDFade:
+### Circuit Python Servo:
 #### Objective
-Make a LED fade from full brightness (255) to 
-
+Using duty cycle and capacitive touch to make a servo turn back and forth. 
 
 #### Lessons
-In this assignment we learned how to use the new metro express board as well as CircuitPython using Mu.
+Learned how to use pwm(pulse width modulation) as well as capacitive touch. 
 #### Important Code
 `LEDFade.py`
 ``` python
