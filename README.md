@@ -1,22 +1,28 @@
-# Circuit Python
-This is the repo for all my circuit Python assignments!
+# CircuitPython
+## My CircuitPython assignments
 
-# Hello Circuit Python
+### LEDFade:
+#### Objective
+Make a LED fades in and out.
 
-## Goal
 
-For this assignment we had a few goals. We wanted to learn how to use the new microcontrollers, the Metro Express. We also needed to learn how to use the Circuit Python language as well as Mu. 
+#### Lessons
+In this assignment we learned how to use our new metro board and how to use CircuitPython on Mu.
+#### Important Code
+`LED.py`
+``` python
+    
+while True:
+    led.value = holder     #Sets the LED to a value
+    time.sleep(0.1)
+    holder += changer      #adds brightness (or subtracts)
+    print(holder)          #prints to serial monitor
 
-# Circuit Python Servo
 
-# Circuit Python LCD
+    if holder >= 60000:
+        changer *= -1       #if the led is at the threshold, it makes the changer negative
 
-# Circuit Python Photointerupters
-
-# Circuit Python Distance Sensor 
-
-# Classes, Objects, and Modules
-
-# Hello VS Code
-
-# Fancy LED
+    if holder <= 2000:
+        changer *= -1
+```
+Our variable counts up, but once it reaches 6000, it multiplies it by a negative and it counts down until it reaches 2000, where it begins to count up. 
