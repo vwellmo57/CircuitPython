@@ -9,7 +9,7 @@ Make a LED fade from full brightness (255) to
 #### Lessons
 In this assignment we learned how to use the new metro express board as well as CircuitPython using Mu.
 #### Important Code
-`LED.py`
+`LEDFade.py`
 ``` python
     
 while True: #essesialy a void loop
