@@ -3,11 +3,11 @@
 
 ### LEDFade:
 #### Objective
-Make a LED fades in and out.
+Make a LED fade from full brightness (255) to 
 
 
 #### Lessons
-In this assignment we learned how to use our new metro board and how to use CircuitPython on Mu.
+In this assignment we learned how to use the new metro express board as well as CircuitPython using Mu.
 #### Important Code
 `LED.py`
 ``` python
