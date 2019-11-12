@@ -7,7 +7,7 @@ Make a LED fade from full brightness (255) to
 
 
 #### Lessons
-In this assignment, we learned how to use the new metro express board as well as CircuitPython using Mu.
+In this assignment, we learned how to use the new metro express board as well as CircuitPython using Mu. Circuit python is really just Arduino but simpler and more reliant on spacing. 
 #### Important Code
 `LEDFade.py`
 ``` python
@@ -26,7 +26,7 @@ Use capacitive touch to move a servo back and forth.
 #### Picture
 ![](Downloads/WiringForServoTouch.png)
 #### Lessons
-Learned how to use pwm(pulse width modulation) as well as capacitive touch on the Metro Express. 
+Learned how to use pwm(pulse width modulation) as well as capacitive touch on the Metro Express. PWM can be really hard the first time and looking things up helps alot. Talk to people who have already done what you are trying to do. 
 #### Important Code
 `Servo.py`
 ``` python
@@ -42,7 +42,7 @@ PWM works by sending lots of signals at a certain frequency and certain interval
 #### Objective
 Count the number of times a button has been pressed on an LCD.
 #### Lessons
-How to use an LCD with the Metro Express as well as how to use a button
+How to use an LCD with the Metro Express as well as how to use a button. I learned about more kinds of variables and how to use them. 
 #### Important Code
 `ButtonLCD.py`
 ``` python
