@@ -45,10 +45,15 @@ How to use and LCD with the Metro Express as well as how to use a button
 `ButtonLCD.py`
 ``` python
     
-while True: #essesialy a void loop
-    for i in range(0, 65535, 1): #counts from 0 to 65535 and then writes it to the LED
-        analog_out.value = i
-    for j in range(65535, 0, -1): #counts from 65535 down to 0 and then writes it to the LED
-        analog_out.value = j
+lcd.set_cursor_pos(0, 1)
+lcd.print("ButtonPress:")
+while True:
+    if switch.value:
+        lcd.set_cursor_pos(0, 14)
+    else:
+        lcd.set_cursor_pos(0, 14)
+        value = value + 1
+        lcd.print(str(value))
+        time.sleep(0.3)
 ```
 Our variable counts up, but once it reaches 6000, it multiplies it by a negative and it counts down until it reaches 2000, where it begins to count up. 
