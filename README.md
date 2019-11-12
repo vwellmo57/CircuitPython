@@ -22,10 +22,9 @@ Our variable counts up, but once it reaches 6000, it multiplies it by a negative
 
 ### Circuit Python Servo:
 #### Objective
-Using duty cycle and capacitive touch to make a servo turn back and forth. 
-
+Use capacitive touch to move a servo back and forth.
 #### Lessons
-Learned how to use pwm(pulse width modulation) as well as capacitive touch. 
+Learned how to use pwm(pulse width modulation) as well as capacitive touch on the Metro Express. 
 #### Important Code
 `Servo.py`
 ``` python
@@ -35,4 +34,4 @@ def servo_duty_cycle(pulse_ms, frequency=50):
     duty_cycle = int(pulse_ms / (period_ms / 65535.0))
     return duty_cycle
 ```
-Our variable counts up, but once it reaches 6000, it multiplies it by a negative and it counts down until it reaches 2000, where it begins to count up. 
+PWM works by sending lots of signals at a certain frequency and at certain intervals. I primarily used this guide https://circuitpython.readthedocs.io/en/2.x/shared-bindings/pulseio/PWMOut.html to help me work it all out. 
