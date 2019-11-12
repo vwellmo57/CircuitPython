@@ -75,4 +75,4 @@ remaining = max + start - time.time() #calculates the time
         max += 4 #sets the variables back to default
         value = 0
 ```
-This was my code for the delay. I used a variable that would count down to allow us to do their delay. Then I would output the number of interrupts and restart the variables. The hardest part of the assignment was the delay because it was something new to us as opposed to the photo-interrupterwe had used before. 
+This was my code for the delay. I used a variable that would count down to allow us to do their delay. Then I would output the number of interrupts and restart the variables. The hardest part of the assignment was the delay because it was something new to us as opposed to the photo-interrupter we have used before. 
