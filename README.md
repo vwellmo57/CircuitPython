@@ -38,11 +38,9 @@ PWM works by sending lots of signals at a certain frequency and at certain inter
 
 ### LCD:
 #### Objective
-Make a LED fade from full brightness (255) to 
-
-
+Count the amount of times a button has been pressed on an LCD.
 #### Lessons
-In this assignment we learned how to use the new metro express board as well as CircuitPython using Mu.
+How to use and LCD with the Metro Express as well as how to use a button
 #### Important Code
 `ButtonLCD.py`
 ``` python
