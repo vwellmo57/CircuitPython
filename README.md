@@ -23,6 +23,8 @@ Our variable counts up, but once it reaches 6000, it multiplies it by a negative
 ### Circuit Python Servo:
 #### Objective
 Use capacitive touch to move a servo back and forth.
+#### Picture
+![](downloads/WiringForServoTouch.png)
 #### Lessons
 Learned how to use pwm(pulse width modulation) as well as capacitive touch on the Metro Express. 
 #### Important Code
