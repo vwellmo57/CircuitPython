@@ -3,7 +3,7 @@
 
 ### LEDFade:
 #### Objective
-Make a LED fade from full brightness (255) to 
+Make a LED fade from full brightness (255) to off (0).
 
 
 #### Lessons
@@ -58,4 +58,21 @@ while True:
         lcd.print(str(value))
         time.sleep(0.3)
 ```
-The first challange on this assignment was to get the LCD to work, we used the documentation on the library as well as and LCD backpack to get it running. Onece we did that we got to work on getting the button wired up and coded. After that all we had to do was code out logic. One hard part was getting the variables to work with each other and the LCD. I think the solution we found works well. 
+The first challange on this assignment was to get the LCD to work, we used the documentation on the library as well as and LCD backpack to get it running. Onece we did that we got to work on getting the button wired up and coded. After that all we had to do was code out logic. One hard part was getting the variables to work with each other and the LCD. I think the solution we found works well.
+
+### Photointerupter:
+#### Objective
+Output the amount of times a photointerupter has been interupted every 4 secounds wothout using sleep.  
+#### Lessons
+How to use an LCD with the Metro Express as well as how to use a button. I learned about more kinds of variables and how to use them. 
+#### Important Code
+`LEDFade.py`
+``` python
+    
+while True: #essesialy a void loop
+    for I in range(0, 65535, 1): #counts from 0 to 65535 and then writes it to the LED
+        analog_out.value = i
+    for j in range(65535, 0, -1): #counts from 65535 down to 0 and then writes it to the LED
+        analog_out.value = j
+```
+Our variable counts up, but once it reaches 6000, it multiplies it by a negative and it counts down until it reaches 2000, where it begins to count up. 
