@@ -58,4 +58,4 @@ while True:
         lcd.print(str(value))
         time.sleep(0.3)
 ```
-The first challange on this assignment was to get the LCD to work, we used the documentation on the library as well as and LCD backpack to get it running. 
+The first challange on this assignment was to get the LCD to work, we used the documentation on the library as well as and LCD backpack to get it running. Onece we did that we got to work on getting the button wired up and coded. After that all we had to do was code out logic. One hard part was getting the variables to work with each other and the LCD. I think the solution we found works well. 
