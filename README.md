@@ -87,3 +87,18 @@ We figured out how to use a distance sensor with CircuitPython. We also learned 
 	 dot.fill((255, 0, 0))
 ```
 This is the core code of the assignment. dot.fill works by sending RGB values to the neopixel with a library. This example should light up the neopixel red when the distance is less than 5. 
+### Classes, Objects, and Modules:
+#### Objective
+Write a library that makes the code provided work. 
+#### Lessons
+I learned how libraries work and how they are really just files of code. I learned how to make two files interact with one another. 
+#### Important Code
+`RGBLED.py`
+``` python
+def __init__(self, r, g, b):
+	 print(str(r))
+	 self.r = pulseio.PWMOut(r, frequency=5000, duty_cycle=0)
+	 self.g = pulseio.PWMOut(g, frequency=5000, duty_cycle=0)
+	 self.b = pulseio.PWMOut(b, frequency=5000, duty_cycle=0)
+```
+This is the core code of the assignment. Here we are assigning duty clcleys to the different variables so we can easily code the colors. This assignment took a long time but we also learned alot about how to make a lib. The code is pretty simple if you can grasp how a library works. 
