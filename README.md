@@ -7,7 +7,7 @@ Make a LED fade from full brightness (255) to off (0).
 
 
 #### Lessons
-In this assignment, we learned how to use the new metro express board as well as CircuitPython using Mu. Circuit python is really just Arduino but simpler and more reliant on spacing. 
+In this assignment, we learned how to use the new metro express board as well as CircuitPython using Mu. Circuit python is just Arduino but simpler and more reliant on spacing. 
 #### Important Code
 `LEDFade.py`
 ``` python
@@ -26,7 +26,7 @@ Use capacitive touch to move a servo back and forth.
 #### Picture
 ![](Downloads/WiringForServoTouch.png)
 #### Lessons
-Learned how to use pwm(pulse width modulation) as well as capacitive touch on the Metro Express. PWM can be really hard the first time and looking things up helps alot. Talk to people who have already done what you are trying to do. 
+Learned how to use PWM(pulse width modulation) as well as capacitive touch on the Metro Express. PWM can be hard the first time and looking things up helps a lot. Talk to people who have already done what you are trying to do. 
 #### Important Code
 `Servo.py`
 ``` python
@@ -47,32 +47,32 @@ How to use an LCD with the Metro Express as well as how to use a button. I learn
 `ButtonLCD.py`
 ``` python
     
-lcd.set_cursor_pos(0, 1)
-lcd.print("ButtonPress:")
+LCD.set_cursor_pos(0, 1)
+LCD.print("ButtonPress:")
 while True:
     if switch.value:
-        lcd.set_cursor_pos(0, 14)
+        LCD.set_cursor_pos(0, 14)
     else:
-        lcd.set_cursor_pos(0, 14)
+        LCD.set_cursor_pos(0, 14)
         value = value + 1
-        lcd.print(str(value))
+        LCD.print(str(value))
         time.sleep(0.3)
 ```
-The first challange on this assignment was to get the LCD to work, we used the documentation on the library as well as and LCD backpack to get it running. Onece we did that we got to work on getting the button wired up and coded. After that all we had to do was code out logic. One hard part was getting the variables to work with each other and the LCD. I think the solution we found works well.
+The first challenge on this assignment was to get the LCD to work, we used the documentation on the library as well as an LCD backpack to get it running. Once we did that we got to work on getting the button wired up and coded. After that, all we had to do was code out logic. One hard part was getting the variables to work with each other and the LCD. I think the solution we found works well.
 
-### Photointerupter:
+### Photo-interrupter:
 #### Objective
-Output the amount of times a photointerupter has been interupted every 4 secounds wothout using sleep.  
+Output the number of times a photo-interrupter has been interrupted every 4 seconds without using sleep.  
 #### Lessons
-How to use an LCD with the Metro Express as well as how to use a button. I learned about more kinds of variables and how to use them. 
+I learned how to use some new logic as well as time sleep alternatives. This was my first time using an "If and not" statement. 
 #### Important Code
-`LEDFade.py`
+`Photointterupter.py`
 ``` python
     
-while True: #essesialy a void loop
-    for I in range(0, 65535, 1): #counts from 0 to 65535 and then writes it to the LED
-        analog_out.value = i
-    for j in range(65535, 0, -1): #counts from 65535 down to 0 and then writes it to the LED
-        analog_out.value = j
+remaining = max + start - time.time() #calculates the time
+    if remaining <= 0: #if time is over
+        print("# of interrupts:", (value))
+        max += 4 #sets the variables back to default
+        value = 0
 ```
-Our variable counts up, but once it reaches 6000, it multiplies it by a negative and it counts down until it reaches 2000, where it begins to count up. 
+This was my code for the delay. I used a variable that would count down to allow us to do their delay. Then I would output the number of interrupts and restart the variables. The hardest part of the assignment was the delay because it was something new to us as opposed to the photo-interrupterwe had used before. 
