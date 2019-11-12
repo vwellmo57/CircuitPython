@@ -83,7 +83,6 @@ We figured out how to use a distance sensor with CircuitPython. We also learned 
 #### Important Code
 `DistanceSensor.py`
 ``` python
-    
  if sonarValue < 5:
 	 dot.fill((255, 0, 0))
 ```
