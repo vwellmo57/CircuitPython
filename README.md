@@ -76,3 +76,15 @@ remaining = max + start - time.time() #calculates the time
         value = 0
 ```
 This was my code for the delay. I used a variable that would count down to allow us to do their delay. Then I would output the number of interrupts and restart the variables. The hardest part of the assignment was the delay because it was something new to us as opposed to the photo-interrupter we have used before. 
+#### Objective
+Light up the onboard RGB neopixel according to the distance measured. 
+#### Lessons
+We figured out how to use a distance sensor with CircuitPython. We also learned how to use RGB with LEDs. 
+#### Important Code
+`DistanceSensor.py`
+``` python
+    
+ if sonarValue < 5:
+	 dot.fill((255, 0, 0))
+```
+This is the core code of the assignment. dot.fill works by sending RGB values to the neopixel with a library. This example should light up the neopixel red when the distance is less than 5. 
