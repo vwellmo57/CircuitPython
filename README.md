@@ -34,4 +34,4 @@ def servo_duty_cycle(pulse_ms, frequency=50):
     duty_cycle = int(pulse_ms / (period_ms / 65535.0))
     return duty_cycle
 ```
-PWM works by sending lots of signals at a certain frequency and at certain intervals. I primarily used this guide https://bit.ly/2rvsclJ to help me work it all out. There was lot's of collaberation on this assignment amoung us. The wring is RED-5V, BLACK-GND, YELLOW-DPIN. 
+PWM works by sending lots of signals at a certain frequency and at certain intervals. I primarily used this guide https://bit.ly/2rvsclJ to help me work it all out. There was lot's of collaberation on this assignment amoung us. The wiring is RED-5V, BLACK-GND, YELLOW-DPIN. 
