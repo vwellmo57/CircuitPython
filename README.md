@@ -36,7 +36,7 @@ def servo_duty_cycle(pulse_ms, frequency=50):
 ```
 PWM works by sending lots of signals at a certain frequency and at certain intervals. I primarily used this guide (https://bit.ly/2rvsclJ) to help me work it all out. There was lot's of collaberation on this assignment amoung us. The wiring is RED-5V, BLACK-GND, YELLOW-DPIN. I would reccomend getting your servo working before touching capacitive touch. I used this (https://bit.ly/2X8vuXP) guide to learn how to use capacitive touch. It was a lot easier than the pwm for me. 
 
-### LEDFade:
+### LCD:
 #### Objective
 Make a LED fade from full brightness (255) to 
 
@@ -44,7 +44,7 @@ Make a LED fade from full brightness (255) to
 #### Lessons
 In this assignment we learned how to use the new metro express board as well as CircuitPython using Mu.
 #### Important Code
-`LEDFade.py`
+`ButtonLCD.py`
 ``` python
     
 while True: #essesialy a void loop
