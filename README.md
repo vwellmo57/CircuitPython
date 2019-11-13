@@ -102,3 +102,10 @@ def __init__(self, r, g, b):
 	 self.b = pulseio.PWMOut(b, frequency=5000, duty_cycle=0)
 ```
 This is the core code of the assignment. Here we are assigning duty clcleys to the different variables so we can easily code the colors. This assignment took a long time but we also learned alot about how to make a lib. The code is pretty simple if you can grasp how a library works. 
+### Hello VS Code:
+#### Objective
+Learn how to use VS Code. 
+#### Lessons
+This was really a very simple assignment. I would just recommend reading the instructions for the git parts very closely. I also liked doing all the code by myself, it was nice to do it without help and made me feel like I was closer to being able to use CircuitPython. 
+
+
