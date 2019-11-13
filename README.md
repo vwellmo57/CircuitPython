@@ -106,6 +106,31 @@ This is the core code of the assignment. Here we are assigning duty clcleys to t
 #### Objective
 Learn how to use VS Code. 
 #### Lessons
-This was really a very simple assignment. I would just recommend reading the instructions for the git parts very closely. I also liked doing all the code by myself, it was nice to do it without help and made me feel like I was closer to being able to use CircuitPython. 
+This was really a very simple assignment. I would just recommend reading the instructions for the git parts very closely. I also liked doing all the code by myself, it was nice to do it without help and made me feel like I was closer to being able to use CircuitPython.
+### Fancy LED:
+#### Objective
+Write a library that can make LEDs act in a certain fashion. 
+#### Lessons
+Learned how to use libraries in conjunction with VS code. Got better at modifying existing code. I learned how to test one variable at a time to isolate problems. 
+#### Important Code
+`Lib.py`
+``` python
+  def alternate(self):
+        print("alternate") #runs alternate function
+        self.fancy1.value = True
+        self.fancy2.value = False
+        self.fancy3.value = True
+        time.sleep(.15)
+        self.fancy1.value = False
+        self.fancy2.value = True
+        self.fancy3.value = False
+        time.sleep(.15)
+
+```
+This is essentially the same as the RGB LED assignment except for multiple mono-color LEDs. I just took the old code and modified it for this. 
+
+
+
+
 
 
