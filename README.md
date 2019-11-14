@@ -122,6 +122,10 @@ This was really a very simple assignment. I would just recommend reading the ins
 ### Fancy LED:
 #### Objective
 Write a library that can make LEDs act in a certain fashion. 
+#### Picture:
+
+<img src="MEDIA/FancyLED.png" width="392"/>
+
 #### Lessons
 Learned how to use libraries in conjunction with VS code. Got better at modifying existing code. I learned how to test one variable at a time to isolate problems. 
 #### Important Code
