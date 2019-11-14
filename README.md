@@ -26,7 +26,7 @@ Our variable counts up, but once it reaches 6000, it multiplies it by a negative
 #### Objective
 Use capacitive touch to move a servo back and forth.
 #### Picture
-![](Downloads/WiringForServoTouch.png)
+<img src="MEDIA/ServoTouch.png" width="392"/>
 #### Lessons
 Learned how to use PWM(pulse width modulation) as well as capacitive touch on the Metro Express. PWM can be hard the first time and looking things up helps a lot. Talk to people who have already done what you are trying to do. 
 #### Important Code
