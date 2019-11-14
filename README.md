@@ -98,6 +98,10 @@ This is the core code of the assignment. dot.fill works by sending RGB values to
 ### Classes, Objects, and Modules:
 #### Objective
 Write a library that makes the code provided work. 
+#### Picture
+
+<img src="MEDIA/ClassesObjectsAndModules.png" width="392"/>
+
 #### Lessons
 I learned how libraries work and how they are really just files of code. I learned how to make two files interact with one another. 
 #### Important Code
