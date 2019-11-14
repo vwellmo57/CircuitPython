@@ -45,6 +45,10 @@ PWM works by sending lots of signals at a certain frequency and certain interval
 ### LCD:
 #### Objective
 Count the number of times a button has been pressed on an LCD.
+#### Picture:
+
+<img src="MEDIA/LCD.png" width="392"/>
+
 #### Lessons
 How to use an LCD with the Metro Express as well as how to use a button. I learned about more kinds of variables and how to use them. 
 #### Important Code
