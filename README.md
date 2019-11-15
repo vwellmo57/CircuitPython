@@ -92,7 +92,7 @@ We figured out how to use a distance sensor with CircuitPython. We also learned 
 `DistanceSensor.py`
 ``` python
  if sonarValue < 5:
-	 dot.fill((255, 0, 0))
+     dot.fill((255, 0, 0))
 ```
 This is the core code of the assignment. dot.fill works by sending RGB values to the neopixel with a library. This example should light up the neopixel red when the distance is less than 5. 
 ### Classes, Objects, and Modules:
@@ -108,12 +108,12 @@ I learned how libraries work and how they are really just files of code. I learn
 `RGBLED.py`
 ``` python
 def __init__(self, r, g, b):
-	 print(str(r))
-	 self.r = pulseio.PWMOut(r, frequency=5000, duty_cycle=0)
-	 self.g = pulseio.PWMOut(g, frequency=5000, duty_cycle=0)
-	 self.b = pulseio.PWMOut(b, frequency=5000, duty_cycle=0)
+     print(str(r))
+     self.r = pulseio.PWMOut(r, frequency=5000, duty_cycle=0)
+     self.g = pulseio.PWMOut(g, frequency=5000, duty_cycle=0)
+     self.b = pulseio.PWMOut(b, frequency=5000, duty_cycle=0)
 ```
-This is the core code of the assignment. Here we are assigning duty clcleys to the different variables so we can easily code the colors. This assignment took a long time but we also learned alot about how to make a lib. The code is pretty simple if you can grasp how a library works. 
+This is the core code of the assignment. Here we are assigning duty cycles to the different variables so we can easily code the colors. This assignment took a long time but we also learned a lot about how to make a lib. The code is pretty simple if you can grasp how a library works. 
 ### Hello VS Code:
 #### Objective
 Learn how to use VS Code. 
@@ -144,9 +144,3 @@ Learned how to use libraries in conjunction with VS code. Got better at modifyin
 
 ```
 This is essentially the same as the RGB LED assignment except for multiple mono-color LEDs. I just took the old code and modified it for this. 
-
-
-
-
-
-
