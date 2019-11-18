@@ -1,4 +1,9 @@
 # CircuitPython
+
+[Rowan Miller](https://github.com/rmiller85)
+
+[Philip Breen](https://github.com/pbreen40)
+
 ## My CircuitPython assignments
 
 ### LEDFade:
