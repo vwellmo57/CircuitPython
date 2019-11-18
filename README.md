@@ -84,6 +84,8 @@ remaining = max + start - time.time() #calculates the time
         value = 0
 ```
 This was my code for the delay. I used a variable that would count down to allow us to do their delay. Then I would output the number of interrupts and restart the variables. The hardest part of the assignment was the delay because it was something new to us as opposed to the photo-interrupter we have used before. 
+
+### Distance Sensor
 #### Objective
 Light up the onboard RGB neopixel according to the distance measured. 
 #### Lessons
