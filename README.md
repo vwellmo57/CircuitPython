@@ -1,5 +1,7 @@
 # CircuitPython
 
+##These users helped me with syntax and images. 
+
 [Rowan Miller](https://github.com/rmiller85)
 
 [Philip Breen](https://github.com/pbreen40)
