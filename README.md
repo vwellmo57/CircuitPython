@@ -1,6 +1,6 @@
 # CircuitPython
 
-##These users helped me with syntax and images. 
+# These users helped me with syntax and images. 
 
 [Rowan Miller](https://github.com/rmiller85)
 
