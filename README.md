@@ -14,6 +14,7 @@ Make a LED fade from full brightness (255) to off (0).
 
 <img src="MEDIA/HelloCircuitPython.png" width="392"/>
 
+[I'm an inline-style link](https://www.google.com)
 ### Lessons
 In this assignment, we learned how to use the new metro express board as well as CircuitPython using Mu. Circuit python is just Arduino but simpler and more reliant on spacing. 
 ### Important Code
