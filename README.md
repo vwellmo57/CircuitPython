@@ -36,6 +36,7 @@ Use capacitive touch to move a servo back and forth.
 
 <img src="MEDIA/ServoTouch.png" width="392"/>
 This image is a wiring diagram by [Philip Breen](https://github.com/pbreen40) and shows the servo wiring as well as the capacitive touch leeads. The servo is Black/Brown -> Ground, Red -> 5v, and Yellow/White -> Signal. The leads can be put in any analog pins. 
+
 ### Lessons
 Learned how to use PWM(pulse width modulation) as well as capacitive touch on the Metro Express. PWM can be hard the first time and looking things up helps a lot. Talk to people who have already done what you are trying to do. 
 ### Important Code
