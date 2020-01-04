@@ -112,7 +112,7 @@ Write a library that makes the code provided work.
 ### Picture
 
 <img src="MEDIA/ClassesObjectsAndModules.png" width="392"/>
-
+This image is a wiring diagram by [Philip Breen](https://github.com/pbreen40) and shows the wiring of RGB LEDS. The important thing to bear in mind is the orientation and best practice is to look up an image to make sure you got it right. 
 ### Lessons
 I learned how libraries work and how they are really just files of code. I learned how to make two files interact with one another. 
 ### Important Code
