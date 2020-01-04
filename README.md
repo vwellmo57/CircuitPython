@@ -56,6 +56,7 @@ Count the number of times a button has been pressed on an LCD.
 #### Picture:
 
 <img src="MEDIA/LCD.png" width="392"/>
+This image is a wiring diagram by [Philip Breen](https://github.com/pbreen40) and shows the LCD backpack wiring along with button and switch wiring. The male pins connect to their labbled pins on the board, one of the pros of the Metro Express is the inbuilt SDA and SCL pins. 
 
 ### Lessons
 How to use an LCD with the Metro Express as well as how to use a button. I learned about more kinds of variables and how to use them. 
