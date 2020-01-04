@@ -136,6 +136,7 @@ Write a library that can make LEDs act in a certain fashion.
 ### Picture:
 
 <img src="MEDIA/FancyLED.png" width="392"/>
+This image is a wiring diagram by [Philip Breen](https://github.com/pbreen40). All you have is a 220 ohm resistor going into power and the longer leg of the LED. The shorter leg is ground. 
 
 ### Lessons
 Learned how to use libraries in conjunction with VS code. Got better at modifying existing code. I learned how to test one variable at a time to isolate problems. 
