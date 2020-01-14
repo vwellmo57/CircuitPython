@@ -34,7 +34,8 @@ Use capacitive touch to move a servo back and forth.
 ### Picture
 
 <img src="MEDIA/ServoTouch.png" width="392"/>
-This image is a wiring diagram by [Philip Breen](https://github.com/pbreen40) and shows the servo wiring as well as the capacitive touch leads. The servo is Black/Brown -> Ground, Red -> 5v, and Yellow/White -> Signal. The leads can be put in any analog pins. 
+This image is a wiring diagram by [Philip Breen](https://www.github.com/pbreen40)
+and shows the servo wiring as well as the capacitive touch leads. The servo is Black/Brown -> Ground, Red -> 5v, and Yellow/White -> Signal. The leads can be put in any analog pins. 
 
 ### Description
 `Servo.py`
@@ -53,7 +54,8 @@ Count the number of times a button has been pressed on an LCD.
 #### Picture:
 
 <img src="MEDIA/LCD.png" width="392"/>
-This image is a wiring diagram by [Philip Breen](https://github.com/pbreen40) and shows the LCD backpack wiring along with button and switch wiring. The male pins connect to their labbled pins on the board, one of the pros of the Metro Express is the inbuilt SDA and SCL pins. 
+This image is a wiring diagram by [Philip Breen](https://github.com/pbreen40)
+and shows the LCD backpack wiring along with button and switch wiring. The male pins connect to their labbled pins on the board, one of the pros of the Metro Express is the inbuilt SDA and SCL pins. 
  
 ### Description
 `ButtonLCD.py`
