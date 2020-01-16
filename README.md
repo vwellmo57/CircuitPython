@@ -5,7 +5,7 @@
 
 [Philip Breen](https://github.com/pbreen40)
 
-[Adafruit CircuitPython Guide[ (https://learn.adafruit.com/welcome-to-circuitpython/overview)
+[Adafruit CircuitPython Guide](https://learn.adafruit.com/welcome-to-circuitpython/overview)
 
 # My CircuitPython assignments
 
