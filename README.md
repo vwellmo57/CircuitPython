@@ -78,7 +78,7 @@ The first challenge on this assignment was to get the LCD to work, we used the d
 
 ## Photo-interrupter:
 ### Objective
-Output the number of times a photo-interrupter has been interrupted every 4 seconds without using sleep.  I started by wiring a photointerupter, it was much easier than last year because of the indicator LED. I then 
+Output the number of times a photo-interrupter has been interrupted every 4 seconds without using sleep.  I started by wiring a photointerupter, it was much easier than last year because of the indicator LED. I did have some trouble with the adress for the LCD so just make sure to read the library documentation for that. 
 
 ### Reflection
 `Photointterupter.py`
@@ -94,7 +94,7 @@ This was my code for the delay. I used a variable that would count down to allow
 
 ## Distance Sensor
 ### Objective
-Light up the onboard RGB neopixel according to the distance measured. 
+Light up the onboard RGB neopixel according to the distance measured. I started this assignment by messing around with the online RGB calculator to get a feel for how they work. I then used the Adafruit guide to light up the neopixel. Afteer that I just made different distances corespond to different RGB values. 
 
 ### Reflection
 `DistanceSensor.py`
@@ -105,7 +105,7 @@ Light up the onboard RGB neopixel according to the distance measured.
 This is the core code of the assignment. dot.fill works by sending RGB values to the neopixel with a library. This example should light up the neopixel red when the distance is less than 5. One of the main takeaways for me was learning that an RGB LED is essensialy just three normal LEDs and a shared ground in terms of wiring and control. 
 ## Classes, Objects, and Modules:
 ### Objective
-Write a library that makes the code provided work. 
+Write a library that makes the code provided work. I then just used the guide to figure out RGB LEDs(very similar to neopixel) and then wrote a simple library to make it work. 
 ### Picture
 
 <img src="MEDIA/ClassesObjectsAndModules.png" width="392"/>
@@ -128,7 +128,7 @@ Learn how to use VS Code.
 This was really a very simple assignment. I would just recommend reading the instructions for the git parts very closely. I also liked doing all the code by myself, it was nice to do it without help and made me feel like I was closer to being able to use CircuitPython proficiantly.
 ## Fancy LED:
 ### Objective
-Write a library that can make LEDs act in a certain fashion. 
+Write a library that can make LEDs act in a certain fashion. This code was just heavily modified code from Classees, Objects, and Modules.
 ### Picture:
 
 <img src="MEDIA/FancyLED.png" width="392"/>
