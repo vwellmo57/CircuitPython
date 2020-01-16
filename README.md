@@ -108,7 +108,7 @@ This is the core code of the assignment. dot.fill works by sending RGB values to
 Write a library that makes the code provided work. I then just used the guide to figure out RGB LEDs(very similar to neopixel) and then wrote a simple library to make it work. 
 ### Picture
 
-<img src="MEDIA/ClassesObjectsAndModules.png" width="392"/>
+<img src="MEDIA/ClassesObjectsAndModules.PNG" width="392"/>
 This image is a wiring diagram by [Philip Breen](https://github.com/pbreen40) and shows the wiring of RGB LEDS. The important thing to bear in mind is the orientation and best practice is to look up an image to make sure you got it right. 
 
 ### Reflection
