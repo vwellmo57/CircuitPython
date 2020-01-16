@@ -52,7 +52,7 @@ PWM works by sending lots of signals at a certain frequency and certain interval
 
 ## LCD:
 ### Objective
-Count the number of times a button has been pressed on an LCD.
+Count the number of times a button has been pressed on an LCD. I started by wiring up an LCD backpack which was easier thanks to the included SDA and SCL pins. I then used the intructions on the library to get it working. 
 #### Picture:
 
 <img src="MEDIA/LCD.png" width="392"/>
@@ -78,7 +78,7 @@ The first challenge on this assignment was to get the LCD to work, we used the d
 
 ## Photo-interrupter:
 ### Objective
-Output the number of times a photo-interrupter has been interrupted every 4 seconds without using sleep.  
+Output the number of times a photo-interrupter has been interrupted every 4 seconds without using sleep.  I started by wiring a photointerupter, it was much easier than last year because of the indicator LED. I then 
 
 ### Reflection
 `Photointterupter.py`
