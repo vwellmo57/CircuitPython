@@ -1,5 +1,5 @@
 
-# These users helped me with syntax and images. 
+# These people helped me with syntax and images as well as reference. 
 
 [Rowan Miller](https://github.com/rmiller85)
 
@@ -28,7 +28,7 @@ while True: #essesialy a void loop
     for j in range(65535, 0, -1): #counts from 65535 down to 0 and then writes it to the LED
         analog_out.value = j
 ```
-Our variable counts up, but once it reaches 6000, it multiplies it by a negative and it counts down until it reaches 2000, where it begins to count up. I learned how to use the new board as well as a fist step into Circuit Python. I completed the assignment by using my arduino experince and translating it to Circuit Python. 
+Our variable counts up, but once it reaches 6000, it multiplies it by a negative and it counts down until it reaches 2000, where it begins to count up. I learned how to use the new board as well as a fist step into Circuit Python. I completed the assignment by using my arduino experince and translating it to Circuit Python. Looking back I think I did everythig fine by just looking at online guides.
 
 ## Circuit Python Servo:
 ### Objective
@@ -48,7 +48,7 @@ def servo_duty_cycle(pulse_ms, frequency=50):
     duty_cycle = int(pulse_ms / (period_ms / 65535.0))
     return duty_cycle
 ```
-PWM works by sending lots of signals at a certain frequency and certain intervals. I primarily used this guide (https://bit.ly/2rvsclJ) to help me work it all out. There was lots of collaboration on this assignment amoung us. The wiring is RED-5V, BLACK-GND, YELLOW-DPIN. I would recommend getting your servo working before using the capacitive touch. I used this (https://bit.ly/2X8vuXP) guide to learn how to use capacitive touch. It was a lot easier than the PWM for me. The overall takeaway was learning how to PWM as well a finding some good Circuit Python rescorces. 
+PWM works by sending lots of signals at a certain frequency and certain intervals. I primarily used this guide (https://bit.ly/2rvsclJ) to help me work it all out. There was lots of collaboration on this assignment amoung us. The wiring is RED-5V, BLACK-GND, YELLOW-DPIN. I would recommend getting your servo working before using the capacitive touch. I used this (https://bit.ly/2X8vuXP) guide to learn how to use capacitive touch. It was a lot easier than the PWM for me. The overall takeaway was learning how to PWM as well a finding some good Circuit Python rescorces. Looking back the most helpful resorce was the Adafruit guide on how to do capacitive touch as well as high-level servo control. 
 
 ## LCD:
 ### Objective
@@ -74,7 +74,7 @@ while True:
         LCD.print(str(value))
         time.sleep(0.3)
 ```
-The first challenge on this assignment was to get the LCD to work, we used the documentation on the library as well as an LCD backpack to get it running. Once we did that we got to work on getting the button wired up and coded. After that, all we had to do was code out logic. One hard part was getting the variables to work with each other and the LCD. I think the solution we found works well. One of the main benefits we found in the new boards is a built in SDA and SCL pin. We learned how to install libraries in the Metros. 
+The first challenge on this assignment was to get the LCD to work, we used the documentation on the library as well as an LCD backpack to get it running. Once we did that we got to work on getting the button wired up and coded. After that, all we had to do was code out logic. One hard part was getting the variables to work with each other and the LCD. I think the solution we found works well. One of the main benefits we found in the new boards is a built in SDA and SCL pin. We learned how to install libraries in the Metros. Looking back I just wished I had brushed up on how to do the LCD commands. 
 
 ## Photo-interrupter:
 ### Objective
@@ -90,7 +90,7 @@ remaining = max + start - time.time() #calculates the time
         max += 4 #sets the variables back to default
         value = 0
 ```
-This was my code for the delay. I used a variable that would count down to allow us to do their delay. Then I would output the number of interrupts and restart the variables. The hardest part of the assignment was the delay because it was something new to us as opposed to the photo-interrupter we have used before. We learned alternatives to "time.sleep()." We also learned new logic structures like the "if and not"" statment"  
+This was my code for the delay. I used a variable that would count down to allow us to do their delay. Then I would output the number of interrupts and restart the variables. The hardest part of the assignment was the delay because it was something new to us as opposed to the photo-interrupter we have used before. We learned alternatives to "time.sleep()." We also learned new logic structures like the "if and not"" statment."  
 
 ## Distance Sensor
 ### Objective
@@ -102,7 +102,7 @@ Light up the onboard RGB neopixel according to the distance measured. I started 
  if sonarValue < 5:
      dot.fill((255, 0, 0))
 ```
-This is the core code of the assignment. dot.fill works by sending RGB values to the neopixel with a library. This example should light up the neopixel red when the distance is less than 5. One of the main takeaways for me was learning that an RGB LED is essensialy just three normal LEDs and a shared ground in terms of wiring and control. 
+This is the core code of the assignment. dot.fill works by sending RGB values to the neopixel with a library. This example should light up the neopixel red when the distance is less than 5. One of the main takeaways for me was learning that an RGB LED is essensialy just three normal LEDs and a shared ground in terms of wiring and control. Looking back the Adafruit guide really helped me out, i do wished I had just gone with a simpler method for controlling he neopixel where I just make different distances a fixed value instead of a variable. 
 ## Classes, Objects, and Modules:
 ### Objective
 Write a library that makes the code provided work. I then just used the guide to figure out RGB LEDs(very similar to neopixel) and then wrote a simple library to make it work. 
@@ -149,4 +149,4 @@ This image is a wiring diagram by [Philip Breen](https://github.com/pbreen40). A
         time.sleep(.15)
 
 ```
-This is essentially the same as the RGB LED assignment except for multiple mono-color LEDs. I just took the old code and modified it for this. I figures out how to modify my existing library to complete the same assignment as they are very similar in their core function.
+This is essentially the same as the RGB LED assignment except for multiple mono-color LEDs. I just took the old code and modified it for this. I figures out how to modify my existing library to complete the same assignment as they are very similar in their core function. Looking back I would just reccomend combining your neopixel code with the Classes, Objects, and Modules code. 
