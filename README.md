@@ -5,11 +5,13 @@
 
 [Philip Breen](https://github.com/pbreen40)
 
+[Adafruit CircuitPython Guide[ (https://learn.adafruit.com/welcome-to-circuitpython/overview)
+
 # My CircuitPython assignments
 
 ## LEDFade:
 ### Objective
-Make a LED fade from full brightness (255) to off (0).
+Make a LED fade from full brightness to off. I started by wiring an LED in the same fashion as with an Arduino. I then looked at my old blink codee and modified it using Adafruits guide. 
 ### Picture:
 
 <img src="MEDIA/HelloCircuitPython.png" width="392"/>
@@ -30,7 +32,7 @@ Our variable counts up, but once it reaches 6000, it multiplies it by a negative
 
 ## Circuit Python Servo:
 ### Objective
-Use capacitive touch to move a servo back and forth.
+Use capacitive touch to move a servo back and forth. I started by wiring a servo and two capacitive touch leads(normal wires). I then used adafruits CircuitPython guide to set up the main functionality. I initially tried to use lower level solution to the servo spin but eventually switched to higher level. 
 ### Picture
 
 <img src="MEDIA/ServoTouch.png" width="392"/>
