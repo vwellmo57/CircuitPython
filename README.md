@@ -35,7 +35,7 @@ Our variable counts up, but once it reaches 6000, it multiplies it by a negative
 Use capacitive touch to move a servo back and forth. I started by wiring a servo and two capacitive touch leads(normal wires). I then used adafruits CircuitPython guide to set up the main functionality. I initially tried to use lower level solution to the servo spin but eventually switched to higher level. 
 ### Picture
 
-<img src="MEDIA/ServoTouch.png" width="392"/>
+<img src="MEDIA/ServoTouch.PNG" width="392"/>
 This image is a wiring diagram by [Philip Breen](https://www.github.com/pbreen40)
 and shows the servo wiring as well as the capacitive touch leads. The servo is Black/Brown -> Ground, Red -> 5v, and Yellow/White -> Signal. The leads can be put in any analog pins. 
 
