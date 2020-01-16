@@ -16,7 +16,7 @@ Make a LED fade from full brightness (255) to off (0).
 
 This image is from the [Arduino Blink Guide](https://www.arduino.cc/en/tutorial/blink) but works here as the boards are the same in terms of led wiring. All you have is a 220 ohm resistor going into power and the longer leg of the LED. The shorter leg is ground. 
 
-### Description
+### Reflection
 `LEDFade.py`
 ``` python
     
@@ -37,7 +37,7 @@ Use capacitive touch to move a servo back and forth.
 This image is a wiring diagram by [Philip Breen](https://www.github.com/pbreen40)
 and shows the servo wiring as well as the capacitive touch leads. The servo is Black/Brown -> Ground, Red -> 5v, and Yellow/White -> Signal. The leads can be put in any analog pins. 
 
-### Description
+### Reflection
 `Servo.py`
 ``` python
     
@@ -57,7 +57,7 @@ Count the number of times a button has been pressed on an LCD.
 This image is a wiring diagram by [Philip Breen](https://github.com/pbreen40)
 and shows the LCD backpack wiring along with button and switch wiring. The male pins connect to their labbled pins on the board, one of the pros of the Metro Express is the inbuilt SDA and SCL pins. 
  
-### Description
+### Reflection
 `ButtonLCD.py`
 ``` python
     
@@ -78,7 +78,7 @@ The first challenge on this assignment was to get the LCD to work, we used the d
 ### Objective
 Output the number of times a photo-interrupter has been interrupted every 4 seconds without using sleep.  
 
-### Description
+### Reflection
 `Photointterupter.py`
 ``` python
     
@@ -94,7 +94,7 @@ This was my code for the delay. I used a variable that would count down to allow
 ### Objective
 Light up the onboard RGB neopixel according to the distance measured. 
 
-### Description
+### Reflection
 `DistanceSensor.py`
 ``` python
  if sonarValue < 5:
@@ -109,7 +109,7 @@ Write a library that makes the code provided work.
 <img src="MEDIA/ClassesObjectsAndModules.png" width="392"/>
 This image is a wiring diagram by [Philip Breen](https://github.com/pbreen40) and shows the wiring of RGB LEDS. The important thing to bear in mind is the orientation and best practice is to look up an image to make sure you got it right. 
 
-### Description
+### Reflection
 `RGBLED.py`
 ``` python
 def __init__(self, r, g, b):
@@ -122,7 +122,7 @@ This is the core code of the assignment. Here we are assigning duty cycles to th
 ## Hello VS Code:
 ### Objective
 Learn how to use VS Code. 
-### Description
+### Reflection
 This was really a very simple assignment. I would just recommend reading the instructions for the git parts very closely. I also liked doing all the code by myself, it was nice to do it without help and made me feel like I was closer to being able to use CircuitPython proficiantly.
 ## Fancy LED:
 ### Objective
@@ -132,7 +132,7 @@ Write a library that can make LEDs act in a certain fashion.
 <img src="MEDIA/FancyLED.png" width="392"/>
 This image is a wiring diagram by [Philip Breen](https://github.com/pbreen40). All you have is a 220 ohm resistor going into power and the longer leg of the LED. The shorter leg is ground. 
 
-### Description
+### Reflection
 `Lib.py`
 ``` python
   def alternate(self):
